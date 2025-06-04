@@ -25,6 +25,22 @@
 #ifndef _AUDIO_BOARD_DEFINITION_H_
 #define _AUDIO_BOARD_DEFINITION_H_
 
+#define FUNC_SDCARD_EN             (0)
+#define SDCARD_OPEN_FILE_NUM_MAX    5
+#define SDCARD_INTR_GPIO            -1
+#define SDCARD_PWR_CTRL             -1
+#define ESP_SD_PIN_CLK              GPIO_NUM_13
+#define ESP_SD_PIN_CMD              GPIO_NUM_11
+#define ESP_SD_PIN_D0               GPIO_NUM_14
+#define ESP_SD_PIN_D1               -1
+#define ESP_SD_PIN_D2               -1
+#define ESP_SD_PIN_D3               -1
+#define ESP_SD_PIN_D4               -1
+#define ESP_SD_PIN_D5               -1
+#define ESP_SD_PIN_D6               -1
+#define ESP_SD_PIN_D7               -1
+#define ESP_SD_PIN_CD               -1
+#define ESP_SD_PIN_WP               -1
 
 /**
  * @brief  Audio Codec Chip Function Definition
